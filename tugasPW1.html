@@ -1,0 +1,40 @@
+ <html>
+  <head>
+   <script>
+    function load(){
+
+
+var myObj1 = document.getElementById("root").getElementsByClassName("xyz");
+var myObj2 = document.getElementById("root").getElementsByClassName("xy");
+var myObj3= document.getElementById("root").getElementsByClassName("foo2");
+var myObj4= document.getElementById("root").getElementsByTagName("p");
+var myObj5= document.getElementById("root").getElementsByTagName("div");
+
+
+myObj1[0].style.color="red";
+myObj2[0].style.color="green";
+myObj3[0].style.color="yelow";
+myObj4[1].style.color="purple";
+myObj5[1].style.color="blue";
+}
+</script>
+</head>
+       <body onload="load()" > 
+			<style> {
+				background: -webkit-linear-gradient(bottom, #FAEBD7);
+				background-repeat: no-repeat;
+				}#box1{
+				width:350px;
+				height:129px;
+				background:				#00BFFF;
+				border-radius: 5px;
+			}
+			</style><center><div id="box1">
+			<diav style="background-color: #; solid #17202A; height: auto; margin: 10px 455px; padding: 5px; text-align: center; width: auto;">
+			<div id="root">
+                 <center><div id="abc" class="xy"> TUGAS PEMROGRAMAN WEB  </div></center>
+                 <center><p id="abc" class="xyz"> NUR WAKHID FAUZAN </p></center>
+                <center><span name="span" id="foo" class="foo2"> 18.01.53.0124 </span></center>
+			</div></diav></div></center>
+       </body>
+</html>

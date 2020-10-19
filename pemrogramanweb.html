@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>WEBSITE GO BLOG</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #1E90FF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: 	#00BFFF;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #1E90FF;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>PEMROGRAMAN WEB</h2>
+<p>Disini saya akan menjelaskan tentang javascript getelementbyid, tagname dan classname</p>
+
+
+<header>
+  <h2>JavaScript</h2>
+</header>
+
+<section>
+  <nav>
+    <ul><center><h2>PENJELASAN</h2>
+      <H3><li><a href="byId.html">getelemen byId</a></li>
+      <br>
+      <li><a href="tagname.html">getelemen bytagname</a></li>
+      <br>
+      <li><a href="byclassname.html">getelemen byclassname</a></li></H3>
+    </center></ul>
+  </nav>
+  
+  <article><center>
+    <h2>LATIHAN</h2>
+    <p>Disini contoh yang saya gunakan menggunakan javaScript yang sudah mencakup metode byId, bytagname dan byclass name, saya menggunakannya untuk mengganti fungsi dari warna teks yang telah saya modifikasi.</p>
+    <H3> <a href="tugasPW1.html"> CONTOH</a></H3>
+ </center> </article>
+</section>
+
+<footer>
+  <p>powered by NUR WAKHID FAUZAN</p>
+</footer>
+
+</body>
+</html>
